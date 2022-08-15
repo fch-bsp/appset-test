@@ -8,7 +8,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/argoproj/argocd-example-apps.git  # Can point to either a Helm chart repo or a git repo.
-    targetRevision: HEAD
+    targetRevision: main
     path: guestbook
   destination:
     name: prod
